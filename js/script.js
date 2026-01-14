@@ -183,7 +183,7 @@ document.querySelectorAll(".map-filter button").forEach((btn) => {
 // GEOJSON (TIDAK TERFILTER)
 // =======================
 
-fetch("../data/CIcareuh_ar.geojson")
+fetch("../data/Cicareuh_AR.geojson")
   .then((res) => {
     if (!res.ok) throw new Error("GeoJSON gagal dimuat");
     return res.json();
@@ -201,6 +201,7 @@ fetch("../data/CIcareuh_ar.geojson")
     map.fitBounds(batasDesa.getBounds());
   })
   .catch((err) => console.error(err));
+
 
 
 
