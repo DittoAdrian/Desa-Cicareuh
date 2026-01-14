@@ -1,6 +1,6 @@
 [
   {
-    "nama": "Pabrik Tua Tjipetir",
+    "nama": "Pabrik Karet Gutta Percha Tjipetir",
     "koordinat" : [-6.859617, 106.697588],
     "foto": "images/cicareuhPabrikTjipetir.jpg",
     "deskripsi": "Pabrik Tjipetir adalah peninggalan industri era kolonial Belanda yang hingga kini masih beroperasi di Cipetir, Cikidang, Sukabumi. Pabrik ini memproduksi Gutta Percha, getah alam bernilai tinggi yang kualitasnya diakui secara global dan diekspor ke negara-negara seperti Jerman dan Korea untuk kebutuhan medis serta industri presisi. Keberadaan pabrik ini menjadi bukti keberlanjutan industri berbasis sumber daya alam yang bertahan lintas generasi. Proses produksi Gutta Percha di Tjipetir tergolong kompleks dan membutuhkan keahlian khusus. Bahan baku berasal dari daun tua tanaman Palaquium spp. dengan rendemen rendah, sehingga produksi hanya dilakukan dua tahun sekali. Hasilnya dimanfaatkan untuk berbagai keperluan, mulai dari bahan tambal gigi sementara, pelapis bola golf, hingga pembungkus kabel bawah laut. Meski kualitas bahan bakunya tinggi, pengolahan lanjutan bernilai tambah masih banyak dilakukan di luar negeri. Di balik reputasi internasionalnya, Pabrik Tjipetir menghadapi tantangan serius, terutama krisis regenerasi tenaga kerja terampil, keterbatasan pengelolaan, dan minimnya dokumentasi sejarah. Namun, kondisi ini sekaligus membuka peluang pengembangan eduwisata berbasis sejarah industri, didukung oleh nilai arsitektur kolonial dan proses produksi tradisional yang masih bertahan. Sebagai warisan industri yang masih hidup, Pabrik Tjipetir tidak hanya menyimpan bangunan bersejarah, tetapi juga pengetahuan dan keterampilan yang bernilai tinggi. Keberlanjutannya menjadi kunci untuk merawat sejarah, meningkatkan nilai tambah lokal, dan membangun masa depan yang berkelanjutan berbasis kearifan lokal.",
@@ -20,7 +20,7 @@
   {
     "nama": "Curug Ateng",
     "koordinat": [-6.8697, 106.6871],
-    "foto": "images/cicareuhAirterjun.jpg",
+    "foto": "images/cicareuhCurugAteng.jpg",
     "deskripsi" :"Curug Ateng merupakan curug alami yang berada di Sungai Cirawa, Desa Cicareuh, Kecamatan Cikidang, Kabupaten Sukabumi. Curug ini memiliki aliran air yang jatuh di atas tebing batu alam dengan ketinggian sedang, dikelilingi pepohonan dan bambu yang masih asri. Airnya mengalir langsung dari sungai dengan karakter alami, terutama terasa deras saat musim hujan. Suasana di sekitar Curug Ateng tenang dan sejuk, mencerminkan keindahan alam pedesaan yang masih terjaga. Tempat ini menjadi bagian dari kekayaan alam Desa Cicareuh yang berpotensi sebagai lokasi wisata alam sekaligus ruang edukasi tentang pentingnya menjaga kelestarian sungai dan lingkungan.",
     "icon": "titik",
     "tipe": ["semua", "wisataAlam"],
@@ -29,7 +29,7 @@
    {
     "nama": "Gunung Karang",
     "koordinat": [-6.8697, 106.6841],
-    "foto": "images/mountain.png",
+    "foto": "images/cicareuhGunungKarang.jpg",
     "deskripsi": "Gunung Karang menawarkan panorama alam yang memikat dari ketinggian. Hamparan perbukitan hijau, sawah terasering yang berlekuk indah, serta bentang alam yang terbuka luas menciptakan pemandangan yang menenangkan sekaligus menakjubkan. Dari puncaknya, mata dimanjakan oleh lapisan perbukitan yang seolah tak berujung, berpadu dengan langit luas dan udara pegunungan yang sejuk.<br> <br> Kontur alam Gunung Karang yang landai namun di sisi lainya dengan kontur dan tebing yang curam terbuka menjadikannya spot potensial untuk paralayang. Arah angin yang relatif stabil dan area pandang yang luas memberikan sensasi terbang bebas sambil menikmati keindahan lanskap dari sudut yang berbeda. Tak hanya bagi pecinta olahraga ekstrem, tempat ini juga cocok untuk wisata alam, fotografi, hingga menikmati momen refleksi diri di tengah ketenangan alam.<br> <br> Gunung Karang adalah destinasi yang menyatukan keindahan, tantangan, dan ketenangan—sebuah ruang alami yang layak dikembangkan sebagai ikon wisata alam dan olahraga dirgantara.",
     "icon": "titik",
     "tipe": ["semua","wisataAlam"],

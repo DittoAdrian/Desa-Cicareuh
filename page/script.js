@@ -76,4 +76,3 @@ fetch("../data/Cicareuh_AR.geojson")
   })
   .catch((err) => console.error(err));
 
-
