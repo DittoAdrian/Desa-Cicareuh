@@ -8,6 +8,8 @@ let initialZoom = window.innerWidth <= 768 ? 9 : 13;
 // Inisialisasi peta
 var map = L.map("map").setView([-6.889547, 106.692372], initialZoom);
 
+const ZOOM_LABEL_MIN = 14
+
 //Base Peta yang akan Digunakan
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
 
@@ -61,10 +63,13 @@ fetch("../data/wisata.json")
 let markerGroup = L.layerGroup().addTo(map);
 let listContainer = document.getElementById("list-wisata");
 
+let allMarkers = []; //---> Kumpulan Marker
+
 // =======================
 // RENDER DATA (FILTER)
 // =======================
 function renderData(filter) {
+  allMarkers = [];
   markerGroup.clearLayers();
   listContainer.innerHTML = "";
 
@@ -72,16 +77,22 @@ function renderData(filter) {
     if (filter !== "semua" && !item.tipe.includes(filter)) return;
 
     // === MARKER ===
-    let marker = L.marker(item.koordinat, {
-      icon: icons[item.icon] || icons.point,
-    }).addTo(markerGroup)
-    .bindTooltip(item.nama,{})
-    .bindPopup(`<div>${item.nama}</div>`,{
-    permanent: true,
-    offset: [0,-20]})
+   let marker = L.marker(item.koordinat, {
+  icon: icons[item.icon] || icons.point,
+})
+.addTo(markerGroup)
+.bindTooltip(item.nama, {
+  permanent: true,
+  direction: "top",
+  offset: [0, -35],
+  className: "marker-label",
+});
 
-    // === LIST ===
-    let div = document.createElement("div");
+  // simpan marker
+  allMarkers.push(marker);
+
+  // === LIST ===
+  let div = document.createElement("div");
   div.className = "list-item";
   div.innerHTML = `<b>${item.nama}</b>`;
 
@@ -104,6 +115,18 @@ div.addEventListener("click", () => {
   map.setView(item.koordinat, 17, { animate: true });
   toggleDetail(index);
 
+});
+
+map.on("zoomend", ()=>{
+  const zoom = map.getZoom();
+
+  allMarkers.forEach(marker => {
+    const tooltipEl = marker.getTooltip()?.getElement();
+    if (!tooltipEl) return;
+
+    tooltipEl.style.display = 
+    zoom < ZOOM_LABEL_MIN ? "none" : "block"
+  });
 });
 
 // Klik marker → scroll + buka detail

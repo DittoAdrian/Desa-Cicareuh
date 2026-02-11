@@ -19,7 +19,7 @@
   },
   {
     "nama": "Curug Ateng",
-    "koordinat": [-6.8697, 106.6871],
+    "koordinat": [-6.926939, 106.683381],
     "foto": "images/cicareuhCurugAteng.jpg",
     "deskripsi" :"Curug Ateng merupakan curug alami yang berada di Sungai Cirawa, Desa Cicareuh, Kecamatan Cikidang, Kabupaten Sukabumi. Curug ini memiliki aliran air yang jatuh di atas tebing batu alam dengan ketinggian sedang, dikelilingi pepohonan dan bambu yang masih asri. Airnya mengalir langsung dari sungai dengan karakter alami, terutama terasa deras saat musim hujan. Suasana di sekitar Curug Ateng tenang dan sejuk, mencerminkan keindahan alam pedesaan yang masih terjaga. Tempat ini menjadi bagian dari kekayaan alam Desa Cicareuh yang berpotensi sebagai lokasi wisata alam sekaligus ruang edukasi tentang pentingnya menjaga kelestarian sungai dan lingkungan.",
     "icon": "titik",
@@ -34,5 +34,32 @@
     "icon": "titik",
     "tipe": ["semua","wisataAlam"],
     "link": "page/gunung-karang.html"
+  },
+  {
+    "nama": "Bukit Tjantik",
+    "koordinat": [-6.911717,106.700122],
+    "foto": "images/bukitTjantik.png",
+    "icon": "titik",
+    "deskripsi": "...",
+    "tipe": ["semua","wisataAlam"],
+    "link": "#"
+  },
+  {
+    "nama": "Bangunan Belanda",
+    "koordinat": [-6.898233, 106.693689],
+    "foto": "images/bangunanBelanda.png",
+    "icon": "titik",
+    "deskripsi": "...",
+    "tipe": ["semua","infrastruktur"],
+    "link": "#"
+  },
+   {
+    "nama": "Kantor Desa Neglasari Kec.Cibadak",
+    "koordinat": [-6.910303, 106.733850],
+    "foto": "images/Kantor Kecamatan.png",
+    "icon": "titik",
+    "deskripsi": "...",
+    "tipe": ["semua","infrastruktur"],
+    "link": "#"
   }
 ]

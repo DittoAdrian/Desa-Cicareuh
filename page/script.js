@@ -44,10 +44,12 @@ fetch("../../data/wisata.json")
         icon: iconTitik
       });
 
-      marker.bindPopup(`
-        <b>${item.nama}</b><br>
-        ${item.deskripsi || ""}
-      `);
+      marker.bindTooltip(item.nama, {
+  permanent: true,
+  direction: "top",
+  offset: [0, -35],
+  className: "marker-label",
+})
 
       markerGroup.addLayer(marker);
     });
